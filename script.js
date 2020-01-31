@@ -28,10 +28,12 @@ initializeVars();
 function initializeVars() {
     date = parseDate(new Date());
     getSavedCities();
-    city = recentCitiesArr[recentCitiesArr.length - 1];
-    parseCities();
-    getWeatherAPI();
-    getForecastAPI();
+    if(recentCitiesArr.length > 0) {
+        city = recentCitiesArr[recentCitiesArr.length - 1];
+        getWeatherAPI();
+        getForecastAPI();
+        parseCities();
+    };
 };
 
 //city search event listener
