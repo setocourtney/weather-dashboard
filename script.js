@@ -24,11 +24,14 @@ const forecastDiv = document.querySelector("#forecast");
 var date = "";
 initializeVars();
 
-//set current date and display recent cities
+//set current date and display recent cities, initialize with most recently searched city
 function initializeVars() {
     date = parseDate(new Date());
     getSavedCities();
+    city = recentCitiesArr[recentCitiesArr.length - 1];
     parseCities();
+    getWeatherAPI();
+    getForecastAPI();
 };
 
 //city search event listener
