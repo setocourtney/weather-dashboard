@@ -1,18 +1,19 @@
 # weather-dashboard
 
-https://setocourtney.github.io/weather-dashboard/
-
 Weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities. 
+
+Deployed: https://setocourtney.github.io/weather-dashboard/
 
 
 ## User Story
 
-As a traveler
-I want to see the weather outlook for multiple cities
-so that I can plan a trip accordingly
+> AS AN avid traveller <br />
+> I WANT to I want to see the weather outlook for multiple cities <br />
+> SO THAT mI can plan a trip accordingly
 
 
-## Function 
+
+## Features
 
 * Uses the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. 
 
@@ -40,3 +41,28 @@ so that I can plan a trip accordingly
   * Icon image (visual representation of weather conditions)
   * Temperature
   * Humidity
+
+
+  
+## Technologies
+
+### FrontEnd
+
+* [Bootstrap](https://getbootstrap.com/)
+* HTML
+* JavaScript
+
+### APIs
+
+* [OpenWeather API](https://openweathermap.org/api)
+
+
+
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+Copyright (c) 2020 Courtney J. Seto
+
+
